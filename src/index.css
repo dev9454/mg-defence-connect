@@ -2,41 +2,69 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* MG Technicals Design System - Defence Technology Inspired */
 
 @layer base {
   :root {
+    /* Core Defense Colors */
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-
+    --foreground: 216 71% 16%;
+    
+    /* Navy Blue - Primary Defense Color */
+    --primary: 216 71% 16%;
+    --primary-foreground: 0 0% 98%;
+    --primary-hover: 216 71% 20%;
+    
+    /* Metallic Grey Variants */
+    --secondary: 210 11% 71%;
+    --secondary-foreground: 216 71% 16%;
+    --metallic: 210 15% 85%;
+    --metallic-dark: 210 20% 45%;
+    
+    /* Card and Surface Colors */
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
-
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
-
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
-
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
-
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
-
+    --card-foreground: 216 71% 16%;
+    --surface: 210 20% 97%;
+    --surface-elevated: 0 0% 100%;
+    
+    /* Interactive Elements */
+    --muted: 210 20% 95%;
+    --muted-foreground: 210 20% 45%;
+    --accent: 216 71% 16%;
+    --accent-foreground: 0 0% 98%;
+    
+    /* Status and Feedback */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --success: 142 69% 58%;
+    --warning: 38 92% 50%;
+    
+    /* Indian Tricolor Accents (Subtle) */
+    --saffron: 24 100% 50%;
+    --indian-green: 120 100% 25%;
+    --tricolor-blue: 216 100% 31%;
+    
+    /* Border and Input */
+    --border: 210 20% 90%;
+    --input: 210 20% 95%;
+    --ring: 216 71% 16%;
+    
+    /* Design System Values */
     --radius: 0.5rem;
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(216 71% 16%), hsl(216 71% 20%));
+    --gradient-metallic: linear-gradient(135deg, hsl(210 15% 85%), hsl(210 20% 75%));
+    --gradient-hero: linear-gradient(135deg, hsl(216 71% 16% / 0.95), hsl(216 71% 20% / 0.9));
+    
+    /* Shadows */
+    --shadow-defence: 0 10px 30px -10px hsl(216 71% 16% / 0.3);
+    --shadow-metallic: 0 4px 20px -4px hsl(210 20% 45% / 0.2);
+    --shadow-elevation: 0 20px 60px -20px hsl(216 71% 16% / 0.4);
+    
+    /* Transitions */
+    --transition-defence: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-smooth: all 0.2s ease-out;
 
     --sidebar-background: 0 0% 98%;
 
