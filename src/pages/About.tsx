@@ -5,7 +5,7 @@ import { Calendar, Award, Users, Target } from "lucide-react";
 const About = () => {
   const milestones = [
     {
-      year: "1999",
+      year: "1998",
       title: "Company Founded",
       description: "MG Technicals established with a vision to serve Indian Defence Forces"
     },
@@ -15,9 +15,9 @@ const About = () => {
       description: "Achieved ISO 9001:2015 certification for quality management systems"
     },
     {
-      year: "2010",
-      title: "DGQA Approval",
-      description: "Received approval from Directorate General of Quality Assurance"
+      "year": "2010",
+      "title": "New Venture: Aircraft Parts",
+      "description": "Initiated the indigenization of aircraft components."
     },
     {
       year: "2022",
@@ -54,7 +54,7 @@ const About = () => {
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             A legacy of excellence in defence manufacturing, serving the Indian Armed Forces 
-            with indigenous solutions for over two decades.
+            with indigenous solutions for over three decades.
           </p>
         </div>
 
@@ -65,7 +65,7 @@ const About = () => {
               <h2 className="text-3xl font-bold text-foreground mb-6">Our Story</h2>
               <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
                 <p>
-                  Founded in 1999, MG Technicals emerged with a singular mission: to indigenize 
+                  Founded in 1998, MG Technicals emerged with a singular mission: to indigenize 
                   Russian electrical and electromechanical assemblies for the Indian Defence Forces. 
                   What started as a vision to reduce foreign dependency has evolved into a 
                   cornerstone of India's defence manufacturing ecosystem.
@@ -73,11 +73,11 @@ const About = () => {
                 <p>
                   Over 25 years of dedicated service, we have consistently delivered high-quality 
                   components that meet the stringent requirements of the Indian Army, Navy, and 
-                  Air Force. Our expertise spans across critical systems including electric motors, 
-                  pumps, fans, electromagnets, and sophisticated sensor assemblies.
+                  Air Force. Our expertise spans across critical systems including Electric Motors, 
+                  Pumps, Fans, Electromagnets, and Critical Assemblies.
                 </p>
                 <p>
-                  Today, we stand proud as an ISO 9001:2015 certified and DGQA approved manufacturer, 
+                  Today, we stand proud as an ISO 9001:2015 Certified Manufacturer, 
                   contributing significantly to India's 'Atmanirbhar Bharat' initiative in defence 
                   manufacturing.
                 </p>
@@ -96,14 +96,14 @@ const About = () => {
                     </div>
                   </div>
                   <p className="text-sm text-muted-foreground">
-                    Continuously serving Indian Defence Forces since 1999
+                    Continuously serving Indian Defence Forces since 1998
                   </p>
                 </CardContent>
               </Card>
               <div className="grid grid-cols-2 gap-4">
                 <Card className="shadow-metallic">
                   <CardContent className="p-4 text-center">
-                    <div className="text-2xl font-bold text-primary mb-1">500+</div>
+                    <div className="text-2xl font-bold text-primary mb-1">100+</div>
                     <div className="text-sm text-muted-foreground">Projects Delivered</div>
                   </CardContent>
                 </Card>

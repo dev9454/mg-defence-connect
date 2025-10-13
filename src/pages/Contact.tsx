@@ -57,8 +57,8 @@ const Contact = () => {
       title: "Head Office",
       details: [
         "MG Technicals",
-        "Industrial Area, Kanpur",
-        "Uttar Pradesh - 208001",
+        "98 Industrial Estate,Kalpi Road, Kanpur",
+        "Uttar Pradesh - 208012",
         "India"
       ]
     },
@@ -66,18 +66,17 @@ const Contact = () => {
       icon: Phone,
       title: "Phone Numbers",
       details: [
-        "+91-512-1234567",
-        "+91-512-7654321",
-        "Landline: 0512-1234567"
+        "+91-9839086186",
+        "+91-9335816699",
+        "Landline: 0512-3577638"
       ]
     },
     {
       icon: Mail,
       title: "Email Addresses",
       details: [
-        "info@mgtechnicals.in",
-        "sales@mgtechnicals.in",
-        "support@mgtechnicals.in"
+        "mgtechnicals@yahoo.co.in",
+        "mgtechnicals@gmail.com",
       ]
     },
     {
@@ -272,6 +271,7 @@ const Contact = () => {
             </Card>
 
             {/* Google Maps Placeholder */}
+            {/* Google Maps Location */}
             <Card className="shadow-metallic mt-8">
               <CardHeader>
                 <CardTitle className="flex items-center gap-3">
@@ -280,14 +280,17 @@ const Contact = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <div className="bg-muted rounded-lg h-64 flex items-center justify-center">
-                  <div className="text-center">
-                    <MapPin className="h-12 w-12 text-muted-foreground mx-auto mb-2" />
-                    <p className="text-muted-foreground font-medium">Interactive Map</p>
-                    <p className="text-sm text-muted-foreground mt-1">
-                      Industrial Area, Kanpur, Uttar Pradesh
-                    </p>
-                  </div>
+                <div className="aspect-video w-full">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3571.7702124921584!2d80.29870807520803!3d26.463134976918067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399c470338de53e7%3A0x555f9f1b748d68e6!2sMG%20Technicals!5e0!3m2!1sen!2sin!4v1760368853743!5m2!1sen!2sin"
+                    width="100%"
+                    height="450"
+                    style={{ border: 0 }}
+                    allowFullScreen={true}
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    className="rounded-lg"
+                  ></iframe>
                 </div>
               </CardContent>
             </Card>

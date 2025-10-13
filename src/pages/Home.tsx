@@ -13,13 +13,13 @@ const Home = () => {
     },
     {
       icon: Award,
-      title: "DGQA Approved",
-      description: "Approved by Directorate General of Quality Assurance"
+      title: "OEM to AVNL",
+      description: "HVF AvadI, OFMK Medak, MTPF Ambarnath"
     },
     {
       icon: Users,
       title: "25+ Years Experience",
-      description: "Serving Army, Navy, Air Force since 1999"
+      description: "Serving Army, Navy, Air Force since 1998"
     }
   ];
 
@@ -50,8 +50,8 @@ const Home = () => {
               </span>
             </h1>
             <p className="text-lg md:text-xl text-primary-foreground/90 mb-8 leading-relaxed">
-              Indigenous manufacturing of electrical & electromechanical assemblies 
-              for the Indian Armed Forces. ISO certified, DGQA approved, and trusted 
+              Indigenous manufacturing of  Electrical , Electromechanical and Fabricated assemblies 
+              for the Indian Armed Forces. ISO certified and trusted 
               by defence organizations nationwide.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -103,9 +103,9 @@ const Home = () => {
                 Excellence in Defence Manufacturing
               </h2>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                MG Technicals has been at the forefront of indigenizing Russian electrical 
-                and electromechanical assemblies for the Indian Defence Forces. Our commitment 
-                to quality and innovation has earned us recognition from leading defence organizations.
+                As a key contributor to India's defence self-reliance ('Atmanirbhar Bharat'), MG Technicals specializes in the indigenous development and manufacturing of 
+                Russian-origin electrical, electromechanical, and fabricated assemblies. Our unwavering dedication to quality and innovation has made us a trusted 
+                partner to the Indian Armed Forces, recognized for our excellence in producing a wide range of critical components including:
               </p>
               <div className="space-y-4 mb-8">
                 {services.map((service, index) => (

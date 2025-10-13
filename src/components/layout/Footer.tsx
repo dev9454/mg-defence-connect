@@ -20,7 +20,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-sm opacity-90 leading-relaxed">
-              Serving Indian Defence Forces for over 25 years with indigenous solutions 
+              Serving Indian Defence Forces for over 30 years with indigenous solutions 
               for electrical & electromechanical assemblies.
             </p>
             <div className="flex items-center gap-2 text-sm">

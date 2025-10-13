@@ -31,11 +31,11 @@ const Header = () => {
             </div>
             <div className="flex items-center gap-2">
               <Mail className="h-4 w-4" />
-              <span>mgtechnicals@gmail.com</span>
+              <span>mgtechnicals@yahoo.co.in</span>
             </div>
           </div>
           <div className="hidden md:block text-xs">
-            ISO 9001:2015 Certified | DGQA Approved | MOD Registered
+            ISO 9001:2015 Certified | MOD Registered | OEM to AVNL
           </div>
         </div>
       </div>
