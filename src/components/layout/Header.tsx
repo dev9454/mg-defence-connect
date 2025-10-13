@@ -27,11 +27,11 @@ const Header = () => {
           <div className="flex items-center gap-6">
             <div className="flex items-center gap-2">
               <Phone className="h-4 w-4" />
-              <span>+91-512-1234567</span>
+              <span>+91-9839086186</span>
             </div>
             <div className="flex items-center gap-2">
               <Mail className="h-4 w-4" />
-              <span>info@mgtechnicals.in</span>
+              <span>mgtechnicals@gmail.com</span>
             </div>
           </div>
           <div className="hidden md:block text-xs">
@@ -46,7 +46,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
             <img 
-              src="/lovable-uploads/90f87e2c-53cc-48f6-9483-cd7d2913f56f.png" 
+              src="/lovable-uploads/logo.png" 
               alt="MG Technicals Logo" 
               className="h-10 w-auto"
             />
