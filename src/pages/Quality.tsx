@@ -10,15 +10,15 @@ const Quality = () => {
       year: "2005",
       scope: "Design, Development & Manufacturing of Electrical & Electromechanical Components"
     },
-    {
-      title: "DGQA Approval",
-      description: "Directorate General of Quality Assurance approval for defence manufacturing",
-      year: "2010",
-      scope: "Manufacturing of Defence Grade Components & Systems"
-    },
+    // {
+    //   title: "DGQA Approval",
+    //   description: "Directorate General of Quality Assurance approval for defence manufacturing",
+    //   year: "2010",
+    //   scope: "Manufacturing of Defence Grade Components & Systems"
+    // },
     {
       title: "MOD Registration",
-      description: "Registered with Ministry of Defence, Government of India",
+      description: "Registered with Indian Defence - Army, Navy and Air-Force",
       year: "1999",
       scope: "Defence Manufacturing & Supply Chain"
     }
@@ -38,7 +38,7 @@ const Quality = () => {
     {
       icon: FileCheck,
       title: "Testing Excellence",
-      description: "Comprehensive testing including flame proof testing, environmental testing, and performance validation"
+      description: "Comprehensive quality assurance ensuring compliance through in-house performance checks and NABL-approved laboratory testing for environmental and flame-proof standards"
     },
     {
       icon: Users,
@@ -49,6 +49,11 @@ const Quality = () => {
       icon: Target,
       title: "Continuous Improvement",
       description: "Regular process improvements and technology upgrades to enhance quality and efficiency"
+    },
+    {
+      icon: CheckCircle,
+      title: "International Standards",
+      description: "Our products are engineered and tested to strictly comply with global military standards, including MIL-STD (USA) and GOST (Russian) specifications."
     }
   ];
 
@@ -123,29 +128,12 @@ const Quality = () => {
           </div>
         </section>
 
-        {/* Quality Pillars */}
+        {/* Quality Pillars - Unified Grid for Better Alignment */}
         <section className="mb-20">
           <h2 className="text-3xl font-bold text-foreground text-center mb-12">Quality Pillars</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {qualityPillars.slice(0, 3).map((pillar, index) => (
+            {qualityPillars.map((pillar, index) => (
               <Card key={index} className="shadow-metallic hover:shadow-defence transition-all duration-300 group">
-                <CardHeader className="text-center">
-                  <div className="w-14 h-14 mx-auto bg-gradient-primary rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-                    <pillar.icon className="h-7 w-7 text-primary-foreground" />
-                  </div>
-                  <CardTitle className="text-lg">{pillar.title}</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground text-center">
-                    {pillar.description}
-                  </p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 max-w-4xl mx-auto">
-            {qualityPillars.slice(3).map((pillar, index) => (
-              <Card key={index + 3} className="shadow-metallic hover:shadow-defence transition-all duration-300 group">
                 <CardHeader className="text-center">
                   <div className="w-14 h-14 mx-auto bg-gradient-primary rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
                     <pillar.icon className="h-7 w-7 text-primary-foreground" />
@@ -162,24 +150,25 @@ const Quality = () => {
           </div>
         </section>
 
-        {/* Testing Capabilities */}
+        {/* Testing Capabilities - Updated for Outsourced Context */}
         <section className="mb-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl font-bold text-foreground mb-6">Testing & Validation</h2>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                Our state-of-the-art testing facility ensures that every component meets 
-                stringent military specifications. From initial prototype to final production, 
-                comprehensive testing validates performance, reliability, and durability.
+                To ensure impartial and rigorous quality control, all our products undergo 
+                comprehensive validation through independent NABL-accredited laboratories. 
+                This external testing ecosystem ensures every component strictly meets 
+                stringent military and international specifications for performance and reliability.
               </p>
               <div className="grid grid-cols-2 gap-4">
                 <div className="text-center">
                   <div className="text-2xl font-bold text-primary">100%</div>
-                  <div className="text-sm text-muted-foreground">Testing Coverage</div>
+                  <div className="text-sm text-muted-foreground">Compliance Track</div>
                 </div>
                 <div className="text-center">
                   <div className="text-2xl font-bold text-primary">NABL</div>
-                  <div className="text-sm text-muted-foreground">Certified Lab</div>
+                  <div className="text-sm text-muted-foreground">External Validation</div>
                 </div>
               </div>
             </div>
@@ -187,7 +176,7 @@ const Quality = () => {
               <CardHeader>
                 <CardTitle className="flex items-center gap-3">
                   <FileCheck className="h-6 w-6 text-primary" />
-                  Testing Capabilities
+                  All Products Manufactured Comply with the Following Tests:
                 </CardTitle>
               </CardHeader>
               <CardContent>
@@ -199,6 +188,9 @@ const Quality = () => {
                     </div>
                   ))}
                 </div>
+                <p className="mt-4 text-[10px] text-muted-foreground italic border-t pt-4">
+                  * All specialized tests are conducted at authorized NABL-certified third-party facilities to ensure unbiased results.
+                </p>
               </CardContent>
             </Card>
           </div>
@@ -263,12 +255,10 @@ const Quality = () => {
                   <div className="text-sm text-muted-foreground">Military Standards</div>
                 </div>
                 <div className="space-y-2">
-                  <div className="text-lg font-bold text-primary">IS Standards</div>
-                  <div className="text-sm text-muted-foreground">Indian Standards</div>
+                  <div className="text-lg font-bold text-primary">GOST Standards</div>
+                  <div className="text-sm text-muted-foreground">Russian Standards</div>
                 </div>
                 <div className="space-y-2">
-                  <div className="text-lg font-bold text-primary">DGQA</div>
-                  <div className="text-sm text-muted-foreground">Defence Quality</div>
                 </div>
               </div>
             </CardContent>

@@ -7,57 +7,57 @@ const Clients = () => {
     {
       icon: Shield,
       name: "Indian Army",
-      description: "Serving the backbone of India's land forces with specialized electrical components for tanks, vehicles, and equipment",
-      projects: ["T-90 Tank Electric Motors", "Vehicle Electrical Systems", "Communication Equipment"],
-      highlight: "Primary supplier for ED76 motor indigenization"
+      description: "Serving the backbone of India's land forces with specialized Assemblies for Armoured Vehicles",
+      projects: ["T-90 Tank Electrical Assemblies ", "T-72 Tank Electrical Assemblies", "BMP Tank Electrical Assemblies"],
+      highlight: "Indigenization of Electrical and Electromechanical Assemblies"
     },
     {
       icon: Anchor,
       name: "Indian Navy",
-      description: "Supporting naval operations with marine-grade electrical and electromechanical systems",
-      projects: ["Ship Electrical Systems", "Pump Systems", "Navigation Equipment"],
-      highlight: "Specialized marine environment solutions"
+      description: "Supporting naval operations with marine-grade electrical and electromechanical assemblies",
+      projects: ["Electrical Fans", "Mechanical Spares"],
+      highlight: "Spare parts for naval aircrafts"
     },
     {
       icon: Plane,
       name: "Indian Air Force",
       description: "Contributing to aerial supremacy with precision components for aircraft ground support and systems",
-      projects: ["Ground Support Equipment", "Electrical Components", "Testing Equipment"],
+      projects: ["Ground Support Equipment", "Electrical Components", "Mechanical Spares"],
       highlight: "Critical support for air operations"
     }
   ];
 
   const organizations = [
     {
-      name: "Ordnance Factory Board",
+      name: "Armoured Vehicle Nigam Ltd (AVNL)",
       category: "Manufacturing Partner",
       description: "Long-standing partnership for indigenous component manufacturing"
     },
-    {
-      name: "DGQA (Directorate General of Quality Assurance)",
-      category: "Quality Approval",
-      description: "Approved supplier with stringent quality certifications"
-    },
-    {
-      name: "Ministry of Defence (MOD)",
-      category: "Registered Supplier",
-      description: "Official registration for defence manufacturing and supply"
-    },
-    {
-      name: "Armoured Vehicle Nigam Ltd",
-      category: "Strategic Partner",
-      description: "Recognized for excellence in tank component indigenization"
-    },
+    // {
+    //   name: "DGQA (Directorate General of Quality Assurance)",
+    //   category: "Quality Approval",
+    //   description: "Approved supplier with stringent quality certifications"
+    // },
+    // {
+    //   name: "Ministry of Defence (MOD)",
+    //   category: "Registered Supplier",
+    //   description: "Official registration for defence manufacturing and supply"
+    // },
+    // {
+    //   name: "Armoured Vehicle Nigam Ltd",
+    //   category: "Strategic Partner",
+    //   description: "Recognized for excellence in tank component indigenization"
+    // },
     {
       name: "Bharat Electronics Limited (BEL)",
       category: "Technology Partner",
       description: "Collaboration for electronic systems and components"
-    },
-    {
-      name: "Defence Research & Development Organisation (DRDO)",
-      category: "Research Collaboration",
-      description: "Supporting R&D initiatives for advanced defence technologies"
     }
+    // {
+    //   name: "Defence Research & Development Organisation (DRDO)",
+    //   category: "Research Collaboration",
+    //   description: "Supporting R&D initiatives for advanced defence technologies"
+    // }
   ];
 
   const achievements = [
